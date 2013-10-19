@@ -1,0 +1,20 @@
+button {
+	width: 128px;
+	height: 32px;
+	background: url(../img/black40.png);
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	border: none;
+	color: #fff;
+	margin: 8px;
+}
+
+#result {
+	border: 1px solid white;
+}
+
+#frame {
+	width: 60%;
+	margin: 0px auto;
+	background: url(../img/black40.png);
+}

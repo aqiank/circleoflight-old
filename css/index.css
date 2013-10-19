@@ -1,0 +1,22 @@
+input[name=name] {
+	width: 100%;
+	height: 51px;
+	color: #dddddd;
+	background: url(../img/index/box_bg.png) no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	border: none;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+button[name=signin] {
+	width: 100%;
+	height: 51px;
+	color: #dddddd;
+	background: url(../img/index/btn_sign_in_bg.png) no-repeat;
+	background-size: 100% 100%;
+	border: none;
+	font-size: 1.5em;
+	text-align: center;
+}

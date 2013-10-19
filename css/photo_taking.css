@@ -1,0 +1,25 @@
+#timer p {
+	font-family: "Helvetica", Arial, sans-serif;
+	font-size: 10em;
+	line-height: 2em;
+}
+
+#phototaking {
+	font-family: "Helvetica", Arial, sans-serif;
+	font-size: 3em;
+	line-height: 2em;
+}
+
+#prepare {
+	font-family: "Helvetica", Arial, sans-serif;
+	font-size: 2em;
+	line-height: 2em;
+}
+
+button {
+	width: 97px;
+	height: 99px;
+	margin: 32px;
+	background: url(../img/go_button.png) no-repeat;
+	border: none;
+}

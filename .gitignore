@@ -1,0 +1,11 @@
+*.png
+*.jpg
+*.gif
+*.bmp
+*.otf
+*.ttf
+
+*~
+*.swp
+
+*.pyc

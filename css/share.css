@@ -1,0 +1,40 @@
+button {
+	width: 55px;
+	height: 55px;
+	margin: 4px;
+	border: none;
+}
+
+#result {
+	border: 1px solid white;
+}
+
+form {
+	display: inline;
+}
+
+button[name=email] {
+	background: url(../img/email_icon.png);
+}
+
+button[name=facebook] {
+	background: url(../img/fb_icon_2.png);
+}
+
+button[name=twitter] {
+	background: url(../img/twitter_icon.png);
+}
+
+#frame {
+	width: 60%;
+	margin: 0px auto;
+	background-color: rgba(0, 0, 0, 0.4)
+}
+
+#sharewith {
+	font-size: 2em;
+	margin: 16px;
+}
+
+#sharelinks {
+}

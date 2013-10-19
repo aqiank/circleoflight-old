@@ -1,0 +1,45 @@
+#timer {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10em;
+	line-height: 1em;
+}
+
+#queue {
+	overflow-y: scroll;
+	border: none;
+}
+
+.queue_header {
+	background: #111111;
+}
+
+.queue_header p {
+	display: inline-block;
+	font-size: 1.5em;
+	color: #ffffff;
+	line-height: 1em;
+	margin-left: 16px;
+}
+
+.queue_entry_selected {
+	font-size: 1.5em;
+	line-height: 1em;
+	background: url(../img/white40.png);
+	color: #ffffff;
+	border: 1px solid #333333;
+}
+
+.queue_entry {
+	color: #ffffff;
+	margin: 0px;
+	font-size: 1.5em;
+	line-height: 1em;
+	background: url(../img/black40.png);
+	border: 1px solid #333333;
+}
+
+.queue_entry p {
+	display: inline-block;
+	margin-left: 16px;
+	color: #ffffff;
+}

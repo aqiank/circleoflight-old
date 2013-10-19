@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Circle of Light</title>
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/common.css" rel="stylesheet">
+	<link href=css/share.css rel=stylesheet />
+	
+	<script src=js/jquery-1.10.2.min.js></script>
+	<script src=js/share.js></script>
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src=js/html5shiv.js></script>
+		<script src=js/respond.min.js></script>
+	<![endif]-->
+</head> 
+<body>
+<div class="container">
+	<div class="row centered">
+		<div class="col-md-6 col-md-offset-3">
+			<h1 id=title>Result</h1>
+			<center><a id="imgur_url" href="#"><img class="img-responsive" id=result></img></a></center>
+			<p id="sharewith">Share with friends</p>
+			<p>Thank you</p>
+			<div id="sharelinks">
+				<a id="email_form_toggle" href="#"><img src="img/email_icon.png"></a>
+				<a id="facebook" href="https://www.facebook.com/sharer/sharer.php?u=#" target="_blank"><img src="img/fb_icon_2.png"></a>
+				<a id="twitter" href="https://twitter.com/share?url=#" target="_blank"><img src="img/twitter_icon.png"></a>
+			</div>
+			<div id="email_form" style="display: none">
+				<form class="form-inline" role="form" action="/post_email" method="POST" style="margin: 16px">
+					<div class="form-group">
+						<label class="sr-only" for="email">Email</label>
+						<input id="email" class="form-control" name=email_addr type=email maxlength=256 placeholder="enter you email address"><br/>
+					</div>
+					<div class="form-group">
+						<button class="btn submit" name=submit_message type=submit>Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<a href="/"><img class="img-responsive" id="bbh" src="img/index/bbh_logo.png"></a>
+</body>
+</html>

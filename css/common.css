@@ -1,0 +1,43 @@
+@font-face {
+      font-family: Raleway;
+      src: url("../font/raleway/Raleway-Regular.ttf");
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	font-family: Raleway, Helvetica, Arial, sans-serif;
+	color: #000000;
+}
+
+html {
+	background: url('../img/bg.jpg') no-repeat center center;
+	min-height: 100%;
+	background-size: 100% 100%;
+}
+
+body {
+	background: transparent;
+	min-height: 100%;
+	margin-top: 16px;
+}
+
+.centered {
+	text-align: center;
+}
+
+#bbh {
+	margin: 50px auto;
+}
+
+.section {
+	margin: 16px;
+	padding: 16px;
+	//border: 1px dashed black;
+	background: url(../img/black20.png);
+}
+
+.submit {
+	width: 97px;
+	height: 29px;
+	background: url(../img/index/btn_sign_in_bg.png) no-repeat;
+	border: none;
+}
