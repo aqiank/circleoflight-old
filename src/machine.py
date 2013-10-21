@@ -59,10 +59,10 @@ def start():
 			log.fail('Didn\'t find an Arduino port.')
 			os.exit(1)
 
-			log.msg('Connecting to Arduino at %s' % dev)
-			arduino = serial.Serial(dev, 115200, timeout=1)
-			arduino.read()
-			log.ok('Arduino is connected')
+		log.msg('Connecting to Arduino at %s' % dev)
+		arduino = serial.Serial(dev, 115200, timeout=1)
+		arduino.read()
+		log.ok('Arduino is connected')
 
 # Plot a value into a certain range, similar to map() in Arduino.
 # Why not just call it map()? because it already exists in Python
