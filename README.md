@@ -47,8 +47,11 @@ Requirements
 	* Pillow (for drawing text)
 * gPhoto2 (for automated camera capture)
 
-For Fedora/Linux, install the Arduino, Python packages and gPhoto2 by typing this command:
+For __Fedora Linux__, install the Arduino, Python packages and gPhoto2 by typing this command:  
 `yum install arduino pyserial python-requests python-pillow opencv-python numpy gphoto2`
+
+For __Arch Linux__:  
+`pacman -S python2-{pyserial,requests,pillow,numpy} opencv`
 
 Guides for other Linux distros and OSX will come soon.
 
